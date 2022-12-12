@@ -1,0 +1,59 @@
+Identifier - user defined name we are giving to class or method or variable
+
+Rules of Identifier
+
+1) Allowed character is 0-9, A-Z, $, _
+2) Identifier name cannot start with digit
+3) Identifier names are case sensitive for ex - num1 and Num1
+4) We cannot use keyword reserved by java as an Identifier
+
+
+Examples 
+
+	num3		- valid
+	my_variable 	- valid
+	_data 		- valid
+	_________	- valid
+	my server	- Invalid
+	423 		- Invalid
+	$___almaz	- valid
+	heLLO		- valid
+
+
+Data types - data type is a name given to a variable to identify which type of data
+we can store in the memory
+	(Below data types can store whole number ex - 324, 43, 23, 654)
+	byte		- 1 byte
+	short		- 2 bytes
+	int		- 4 bytes
+	long		- 8 bytes
+
+	(Below data types can store decimal number ex - 324.34, 43.23, 23.12, 654.00)
+	float		- 4 bytes
+	double		- 8 bytes
+
+	String 		- to store the sentences
+	char 		- to store single character
+	boolean 	- to store boolean (true, false)
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

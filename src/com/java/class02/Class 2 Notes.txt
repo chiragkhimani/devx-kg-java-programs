@@ -1,0 +1,22 @@
+JavaClassPrograms		- Name of the project
+	.idea			- Used by intellij internally, we don't have to touch anytime
+	src			- Source Code, Where we keep our code
+	JavaClassPrograms.iml	- To store project configuration, we don't have to touch anytime
+
+
+External Libraries	- All libraries we have added into the project, , we don't have to touch anytime
+
+
+Scratches and Consoles	- It keep IntelliJ files, we don't have to touch anytime
+
+
+Before we create any class in the project we will create a package, and the package is nothing but the folder to store the java files
+
+
+Class - Class is where we start our program, class has same name as file name
+
+
+main() - method, our execution of java program starts from the main method
+
+
+Write down the program to print an introduction about you in the output(5-8 lines).

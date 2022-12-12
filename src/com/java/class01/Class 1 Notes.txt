@@ -1,0 +1,23 @@
+Program	- Set of instruction we are providing to CPU to perform some taks
+
+Programming language	- The language we are using to write out program(Java, Python etc)
+
+Compiler - The program or Translator to translate our programming code to the code which machine can understand
+
+What is imp programming lang in computer? - This answer you can write your own and send it to me(DM in Slack)
+
+
+SDET with Java / python/ C# but Java is most famous 
+
+JS
+Python
+C# 
+Java
+
+Football -> Field where we play match similar to IDE is a field where we write program
+
+IntelliJ / Eclipse --> IDE (Integrated Development Environment)
+
+Java program--> notepad-->compiile-->run
+
+
