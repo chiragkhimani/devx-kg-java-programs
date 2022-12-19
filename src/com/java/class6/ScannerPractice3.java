@@ -67,5 +67,6 @@ public class ScannerPractice3 {
         //if any of the conditions is wrong
 
 
+
     }
 }
