@@ -73,8 +73,6 @@ public class ConditionalOR {
         //block = false;
         System.out.println(block);
 
-
-
         /////
         //you store text in  a String data type
         //you can only compare strings with ==, !=
@@ -93,30 +91,6 @@ public class ConditionalOR {
 
 
         boolean logIn = true;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
