@@ -44,8 +44,6 @@ public class IfElse1 {
 
 
         //if the user has a license and their speed is less than 80m/hr
-        //
-
         boolean hasLicense = true;
         int speed = 70;
 
@@ -63,6 +61,7 @@ public class IfElse1 {
         }
 
 
+        //
 
 
 
