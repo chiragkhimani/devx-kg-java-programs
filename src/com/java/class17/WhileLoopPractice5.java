@@ -21,5 +21,6 @@ public class WhileLoopPractice5 {
         //Output: Not Palindrome
 
 
+
     }
 }
