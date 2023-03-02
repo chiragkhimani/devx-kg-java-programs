@@ -1,11 +1,20 @@
 package com.java.class04;
 
+import java.util.Scanner;
+
 public class ExpressionExample {
+
     public static void main(String[] args) {
-        System.out.println(15 / 3 * 5);
-        System.out.println(3 * 5 / 15);
-        System.out.println(3 * 5 / 15 * 10 / 2 / 2);
-        System.out.println(10 - 5 * 2 / 10 + 6 * 3 - 16 * 2);
-        System.out.println((10 - 5) * (2 / 10) + 6 * 3 - 16 * (2 + 2));
+        // Create object of Scanner class
+        Scanner input = new Scanner(System.in);
+
+        // Variable Declaration
+        int megabytes;
+
+        // Take data from user
+        System.out.println("Enter value in megabytes");
+        megabytes = input.nextInt();
+
+        System.out.println("Value in kilobytes : " + megabytes * 1024);
     }
 }
