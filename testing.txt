@@ -1,18 +1,7 @@
-window.__toastLog = [];
-new MutationObserver((mutations) => {
-  mutations.forEach(m => {
-    if (m.type === 'childList') {
-      m.addedNodes.forEach(n => {
-        if (n.nodeType === 1) window.__toastLog.push(n.outerHTML);
-      });
-    }
-    if (m.type === 'attributes') {
-      window.__toastLog.push(m.target.outerHTML);
-    }
-  });
-}).observe(document.body, {
-  childList: true,
-  subtree: true,
-  attributes: true,
-  attributeFilter: ['class', 'style']
-});
+const popup = page.locator('#SuccessPopup');
+const message = page.locator('#SuccessMessage');
+
+await this.updateEmailButton.click();
+
+await expect(popup).toBeVisible({ timeout: 15000 });
+await expect(message).toHaveText('Data Updated Successfully');
