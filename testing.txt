@@ -1,12 +1,18 @@
+window.__toastLog = [];
 new MutationObserver((mutations) => {
   mutations.forEach(m => {
-    m.addedNodes.forEach(node => {
-      if (node.nodeType === 1) {
-        console.log(node);
-      }
-    });
+    if (m.type === 'childList') {
+      m.addedNodes.forEach(n => {
+        if (n.nodeType === 1) window.__toastLog.push(n.outerHTML);
+      });
+    }
+    if (m.type === 'attributes') {
+      window.__toastLog.push(m.target.outerHTML);
+    }
   });
 }).observe(document.body, {
   childList: true,
-  subtree: true
+  subtree: true,
+  attributes: true,
+  attributeFilter: ['class', 'style']
 });
