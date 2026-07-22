@@ -1,0 +1,12 @@
+new MutationObserver((mutations) => {
+  mutations.forEach(m => {
+    m.addedNodes.forEach(node => {
+      if (node.nodeType === 1) {
+        console.log(node);
+      }
+    });
+  });
+}).observe(document.body, {
+  childList: true,
+  subtree: true
+});
